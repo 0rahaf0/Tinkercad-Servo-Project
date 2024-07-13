@@ -9,6 +9,25 @@ This repository contains the code and instructions for simulating six servos and
 - Potentiometer
 - Jumper Wires
 
+## Arduino Uno:
+
+5V pin to the + rail on the breadboard.
+GND pin to the - rail on the breadboard.
+
+Potentiometer:
+
+Left Pin to the + rail.
+Right Pin to the - rail.
+Middle Pin to the A0 pin on the Arduino.
+Servo Motors:
+
+Servo 1: Signal -> Pin 3, VCC -> +5V rail, GND -> GND rail.
+Servo 2: Signal -> Pin 5, VCC -> +5V rail, GND -> GND rail.
+Servo 3: Signal -> Pin 6, VCC -> +5V rail, GND -> GND rail.
+Servo 4: Signal -> Pin 9, VCC -> +5V rail, GND -> GND rail.
+Servo 5: Signal -> Pin 10, VCC -> +5V rail, GND -> GND rail.
+Servo 6: Signal -> Pin 11, VCC -> +5V rail, GND -> GND rail.
+
 ## Wiring Diagram
 ![Wiring Diagram](C:\Users\rhfmn\Downloads\servo.diagram.png)
 
